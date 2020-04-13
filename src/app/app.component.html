@@ -1,0 +1,13 @@
+<div class="container">
+  <h3 [ngStyle]="{'color': 'yellow','background-color':'lightpink','text-align':'center'}">Welcome to SPA</h3>
+</div>
+
+<div class="container" [ngStyle]="{'color': 'black','background-color':'orange','text-align':'center'}">
+  <a routerLink="">Home</a> |
+  <a routerLink="/customer" >Customer</a> |
+  <a routerLink="/product" >Product</a> |
+  <a routerLink="/template" >Template</a> |
+  <a routerLink="/reactive" >Reactive</a>
+</div>
+
+<router-outlet></router-outlet>
